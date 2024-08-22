@@ -1,0 +1,23 @@
+{
+    "PatIdentifier":"Idf002",
+    "PatientGivenName":"Snehal",
+    "PatientFamilyName":"India",
+    "BornDate":"05/08/2024",
+    "CurrentGender":"Female",
+    "MaritalStatus":"Single",
+    "Ethnicity":"Indian",
+    "Occupation":"Trainer",
+    "Religion":"Hindu",
+    "Nationality":"Indian",
+    "Notes":"Added for testing",
+    "UniqueIdentification":"Aadhar Card",
+    "UniqueIdentificationID":"654132153514",
+    "PhotoIdentfication":"PAN Card",
+    "PhotoIdentficationID":"APAOT1884P",
+    "TitleM":"B/O",
+    "TitleF":"Miss",
+    "SexM":"Male",
+    "SexF":"Female",
+    "MiddleName":"Tester"
+
+}
