@@ -22,7 +22,4 @@ await login.clickOnLoginButton()
 await userdetails.clickOnHomeIcon()
 await homePage.clickOnPatientModule()
 
-await page.pause()
-
-
 });

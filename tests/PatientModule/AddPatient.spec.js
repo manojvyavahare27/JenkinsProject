@@ -49,9 +49,6 @@ await login.enterPassword(logininfo.passWord)
 await login.clickOnLoginButton()
 await page.waitForTimeout(1000)
 await expect(page.getByText('Login success')).toHaveText('Login success')
-
-
-
 await userdetails.clickOnHomeIcon()
 await homePage.clickOnPatientModule()
 await findPatient.clickOnSearch()
@@ -67,12 +64,10 @@ await findPatient.clickOnSearch()
 await findPatient.clickOnAddPatientButton()
 //Adding data on duplicate check page
 await duplicateCheck.clickOnDuplicateCheckButton()
-
 await expect(page.getByText('Photo Identification required')).toHaveText('Photo Identification required')
 await expect(page.getByText('Photo Identification ID required')).toHaveText('Photo Identification ID required')
 await expect(page.getByText('Middle name(s) is required')).toHaveText('Middle name(s) is required')
 await expect(page.getByText('Sex required')).toHaveText('Sex required')
-await page.pause()
 await duplicateCheck.enterPatIdentifier(PatientData.PatIdentifier)
 await duplicateCheck.selectDropdownUniqueIdentification(PatientData.UniqueIdentification)
 await duplicateCheck.enterUniqueIdentificationID(PatientData.UniqueIdentificationID)
